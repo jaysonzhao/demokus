@@ -7,5 +7,6 @@ bases:
 resources:
   - namespace.yaml
 images:
-  - name: docker.io/jaysonzhao/olademo:latest
-    newTag: gitops-dr
+  - name: RESTDEMOIMAGE
+    newName: docker.io/jaysonzhao/olademo
+    newTag: latest

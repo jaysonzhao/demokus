@@ -35,7 +35,7 @@ spec:
         deployment: resturldemo
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/demo0/resturldemo@sha256:8cc637749f34e442cf2078ee19f5335ff52176fdd2ffa428f29ac9ba40a6c70e
+      - image: RESTDEMOIMAGE
         imagePullPolicy: Always
         name: resturldemo
         ports:
